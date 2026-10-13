@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         tvMain = findViewById(R.id.tvMain)
     }
 
-    //Code for revert
     fun onBtnChangeTextClick(view: View) {
         tvMain.text = "Text changed!"
     }
