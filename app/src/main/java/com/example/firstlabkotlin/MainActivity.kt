@@ -19,4 +19,7 @@ class MainActivity : AppCompatActivity() {
     fun onBtnChangeTextClick(view: View) {
         tvMain.text = "Text changed!"
     }
+    fun onBtnChangeColorClick(view: View) {
+        tvMain.setTextColor(getColor(android.R.color.holo_red_dark))
+    }
 }
