@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FirstLabKotlin</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="change_text">Change Text</string>
 </resources>
