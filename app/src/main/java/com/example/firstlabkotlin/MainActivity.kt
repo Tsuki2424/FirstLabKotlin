@@ -22,4 +22,9 @@ class MainActivity : AppCompatActivity() {
     fun onBtnChangeColorClick(view: View) {
         tvMain.setTextColor(getColor(android.R.color.holo_red_dark))
     }
+    fun onBtnChangeBackgroundClick(view: View) {
+        findViewById<View>(R.id.main).setBackgroundColor(
+            getColor(android.R.color.holo_blue_light)
+        )
+    }
 }
